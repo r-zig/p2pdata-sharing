@@ -41,6 +41,41 @@
         <a href="mailto:contact@p2pdata.io" class="text-blue-400 hover:underline">contact@p2pdata.io</a>
       </p>
     </section>
+    <section id="contact" class="max-w-2xl mx-auto mt-16 p-6 bg-gray-900 rounded-2xl shadow-md">
+      <h3 class="text-2xl font-semibold mb-4 text-center">Contact Us</h3>
+      <p class="text-gray-400 text-center mb-6">
+        Have a question, feedback, or want to collaborate? Send us a message below.
+      </p>
+    
+      <form action="https://formspree.io/f/mldojwqr" method="POST" class="space-y-4">
+        <div>
+          <label for="name" class="block text-gray-300 mb-1">Your Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full p-3 rounded bg-gray-800 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+    
+        <div>
+          <label for="email" class="block text-gray-300 mb-1">Your Email</label>
+          <input type="email" id="email" name="_replyto" required
+            class="w-full p-3 rounded bg-gray-800 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+    
+        <div>
+          <label for="message" class="block text-gray-300 mb-1">Message</label>
+          <textarea id="message" name="message" rows="4" required
+            class="w-full p-3 rounded bg-gray-800 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+    
+        <button type="submit"
+          class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition duration-200">
+          Send Message
+        </button>
+      </form>
+    
+      <p class="text-center text-sm text-gray-500 mt-4">
+        Messages are sent securely via <a href="https://formspree.io" target="_blank" class="text-blue-400 hover:underline">Formspree</a>.
+      </p>
+    </section>
   </main>
 </body>
 </html>
